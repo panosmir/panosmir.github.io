@@ -5,7 +5,7 @@ personalWebsite: {
     "firstName": "Panagiotis",
     "lastName": "Mirmigkis",
     "jobTitle": "Java Software Engineer",
-    "currentJob": "Java Developer at European Dynamics@Athens",
+    "currentJob": "Java Developer @ European Dynamics",
     "location": "Athens, Greece",
     
 }
