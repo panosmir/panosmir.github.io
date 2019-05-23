@@ -1,7 +1,7 @@
 #Panagiotis Mirmigkis
 
 ```
-personalWebsite: {
+personalInfo: {
     "firstName": "Panagiotis",
     "lastName": "Mirmigkis",
     "jobTitle": "Java Software Engineer",
