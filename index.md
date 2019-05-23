@@ -1,6 +1,6 @@
 #Panagiotis Mirmigkis
 
-```markdown
+```
 personalWebsite: {
     "firstName": "Panagiotis",
     "lastName": "Mirmigkis",
