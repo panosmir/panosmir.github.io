@@ -77,6 +77,14 @@ a {
 }
 
 
+/* Inner-sections */
+
+.inner-sections {
+    margin: 8px;
+    padding: 8x;
+}
+
+
 /* animations / utilities */
 
 .section-2 a:hover,

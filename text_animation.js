@@ -2,7 +2,6 @@ class TypeWriter {
     constructor(element) {
         this.element = element;
         this.text = element.textContent;
-        this.height = element.offsetHeight;
         this.index = 0;
         this.addSpeed = 60;
         this.clearSpeed = 20;
@@ -42,7 +41,6 @@ class TypeWriter {
 
     init() {
         this.element.textContent = '';
-        this.element.style.height = '' + this.height + 'px';
 
         this.interval = setInterval(this.addText, this.addSpeed);
     }
