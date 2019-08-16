@@ -76,6 +76,10 @@ a {
     width: 100px;
 }
 
+.emptyBullets {
+    list-style-type: circle;
+}
+
 
 /* Inner-sections */
 

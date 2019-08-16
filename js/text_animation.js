@@ -3,7 +3,7 @@ class TypeWriter {
         this.element = element;
         this.text = element.textContent;
         this.index = 0;
-        this.addSpeed = 60;
+        this.addSpeed = 40;
         this.clearSpeed = 20;
         this.waitTime = 1000;
 
