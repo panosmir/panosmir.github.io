@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/text_animation.js"></script>
+    <script src="libs/jquery-3.4.1.min.js"></script>
+    <title>Panagiotis Mirmigkis</title>
+</head>
+
+<body onload="typeWriting();">
+    <div class="grid-2">
+        <div class="section-1">
+            <img src="logo/logo.png" alt="Panos Mirmigkis Logo" height="240" width="240" class="text--hover">
+            <h2 class="text--hover typewriter">Panagiotis Mirmigkis</h2>
+            <p class="text--hover">Athens, Greece.</p>
+            <a href="https://www.twitter.com/panos_mir" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/panagiotis-mirmigkis-8b8882110/" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://www.github.com/panosmir" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="section-2">
+            <div class="inner-sections">
+                <h2 class="text--hover">About myself</h2>
+                <p id="aboutSelfText">
+                    <script>
+                        $(function () {
+                            $("#aboutSelfText").load("texts/aboutSelf.html");
+                        });
+                    </script>
+                </p>
+            </div>
+            <div class="inner-sections">
+                <h2 class="text--hover">About work</h2>
+                <p id="aboutWorkText">
+                    <script>
+                        $(function () {
+                            $("#aboutWorkText").load("texts/aboutWork.html");
+                        });
+                    </script>
+                </p>
+            </div>
+            <div class="inner-sections">
+                <h2 class="text--hover">Skills</h2>
+                <p id="skillsText">
+                    <script>
+                        $(function () {
+                            $("#skillsText").load("texts/skills.html");
+                        });
+                    </script>
+                </p>
+            </div>
+            <div class="inner-sections">
+                <h2 class="text--hover">Work experience</h2>
+                <p id="workText">
+                    <script>
+                        $(function () {
+                            $("#workText").load("texts/work.html");
+                        });
+                    </script>
+                </p>
+            </div>
+            <div class="inner-sections">
+                <h2 class="text--hover">Projects</h2>
+                <p id="projectsText">
+                    <script>
+                        $(function () {
+                            $("#projectsText").load("texts/projects.html");
+                        });
+                    </script>
+                </p>
+            </div>
+            <div class="inner-sections">
+                <h2 class="text--hover">Education</h2>
+                <p id="educationText">
+                    <script>
+                        $(function () {
+                            $("#educationText").load("texts/education.html");
+                        });
+                    </script>
+                </p>
+            </div>
+            <div class="inner-sections">
+                <h2 class="text--hover">Contact</h2>
+                <a href="mailto:panagiotis.mirmigkis@gmail.com">panagiotis.mirmigkis@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
